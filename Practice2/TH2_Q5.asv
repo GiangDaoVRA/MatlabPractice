@@ -1,7 +1,0 @@
-function TH2_Q5
-%Hãy cho bi?t l?nh l?y vector c?t 10 c?a ma tr?n A.
-% Hay cho biet lenh lay vector cot 10 cua ma 
-    A = randi([-10 10],20,20);
-    fprintf('%d ',A(:,10));
-end
-

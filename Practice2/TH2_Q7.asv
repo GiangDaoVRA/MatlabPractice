@@ -1,9 +1,0 @@
-function TH2_Q7
-%Hãy cho bi?t l?nh chuy?n vector dòng thành ma tr?n 28x28.
-% Hay cho biet lenh chuyen vector dong thanh ma tran 28x28
-%     A = randi([-10 10],30,30);
-%     B= reshape(A,[28,28]);
-    A = zeros(3,2,3);
-    A
-    B = reshape(A,9,2)
-end

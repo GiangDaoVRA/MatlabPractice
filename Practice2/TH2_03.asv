@@ -1,8 +1,0 @@
-function TH_03()
-%UNTITLED4 Summary of this function goes here
-% Hay cho biet   Hãy cho bi?t l?nh t?o ma tr?n A kích th??c 100x200 và các giá tr? ??u là zero (0).
-    m = 100;
-    n = 200;
-    A =zeros(m,n);
-end
-
