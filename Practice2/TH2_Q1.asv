@@ -1,0 +1,7 @@
+function TH2_Q1()
+%UNTITLED3 Summary of this function goes here
+%   Tao ngau nhien 1 so trong doant?o ng?u nhiên m?t s? trong ?o?n [1 200].
+r=randi([1 200]);
+fprintf('\n So ngau nhien tu [1 200]: %d',r);
+end
+
