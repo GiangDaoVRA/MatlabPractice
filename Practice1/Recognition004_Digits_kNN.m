@@ -9,7 +9,6 @@ function Recognition004_Digits_kNN()
     nTestImages = size(imgTestAll,2);
     nNumber = randi([1 nTestImages]);
     imgTest = imgTestAll(:,nNumber);
-    lblPredictTest = predict(mdl,imgTest);
     lblPredictTest = predict(mdl,imgTest');
     lblImageTest = lblTestAll(nNumber);
     figure;
